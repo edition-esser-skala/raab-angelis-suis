@@ -1,0 +1,19 @@
+composer:
+  last: Raab
+  first: Franz de Paula
+title: Angelis suis Deus
+subtitle: Offertorium pro festo sanctorum Angelorum
+genre: offertorium
+scoring: S, A, T, B (coro), 2 ob, 2 cor (\flat E), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: R 209 (Kasten IV, fasc. 84)
+    rism: 600033587
+    license: public domain
+    principal: true
+    notes: wrongly attributed to Miachel Haydn, but see RISM entries 605001223 and 600177964 for correct attributions
+imslp:
+parts:
+  cor12: Corno I, II in \flat E
