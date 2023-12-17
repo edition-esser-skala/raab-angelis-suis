@@ -5,7 +5,7 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "Angelis suis Deus"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
@@ -13,33 +13,33 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \xxxSoprano }
+            \new Voice = "Soprano" { \dynamicUp \AngelisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \xxxSopranoLyrics
+          \new Lyrics \lyricsto Soprano \AngelisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \xxxAlto }
+            \new Voice = "Alto" { \dynamicUp \AngelisAlto }
           }
-          \new Lyrics \lyricsto Alto \xxxAltoLyrics
+          \new Lyrics \lyricsto Alto \AngelisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \xxxTenore }
+            \new Voice = "Tenore" { \dynamicUp \AngelisTenore }
           }
-          \new Lyrics \lyricsto Tenore \xxxTenoreLyrics
+          \new Lyrics \lyricsto Tenore \AngelisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \xxxBasso }
+            \new Voice = "Basso" { \dynamicUp \AngelisBasso }
           }
-          \new Lyrics \lyricsto Basso \xxxBassoLyrics
+          \new Lyrics \lyricsto Basso \AngelisBassoLyrics
         >>
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \AngelisOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \AngelisBassFigures }
       >>
     }
   }
