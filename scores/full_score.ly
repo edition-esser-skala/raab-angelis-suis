@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "Angelis suis Deus"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<

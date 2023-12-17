@@ -1,9 +1,9 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
+% \include "ees_articulate.ly"
 
 
 tempoAngelis = \tempoMarkup "Allegro non molto"
